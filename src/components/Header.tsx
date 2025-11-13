@@ -2,6 +2,8 @@ import { Link } from '@tanstack/react-router';
 
 import { useState } from 'react';
 import { Home, Menu, X } from 'lucide-react';
+export function Header(){return(<h1>Todo App</h1>)}
+const    title =     "Hello";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
